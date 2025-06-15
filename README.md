@@ -6,9 +6,9 @@ Here's a comprehensive README for your E-Commerce Order Management System (Inter
 
 ---
 
-## 👋 Welcome, Intern!
+## 👋 Welcome
 
-This project is designed to be a hands-on learning experience, guiding you through the development of a foundational e-commerce order management system using Go. Over the next few weeks, you'll gain practical experience with backend development concepts, Go's ecosystem, and building robust APIs.
+This project is designed to be a hands-on learning experience, guiding you through the development of a foundational e-commerce order management system using Go. You'll gain practical experience with backend development concepts, Go's ecosystem, and building robust APIs.
 
 ---
 
@@ -119,12 +119,12 @@ This project is structured into weekly tasks to guide your learning and progress
 
 | Phase  | Task                                                               |
 | :----- | :----------------------------------------------------------------- |
-| **Week 1** | Set up the PostgreSQL database, define `User` and `Product` models using GORM, and implement simple CRUD operations for products. |
-| **Week 2** | Develop `POST /register` and `POST /login` APIs. Implement password hashing for security and integrate JWT token generation and validation using middleware. |
-| **Week 3** | Implement the Cart module. Design the `CartItem` model with associations to `User` and `Product`. Add logic to add products to the cart and manage quantities. |
-| **Week 4** | Focus on the Order module. Implement the `POST /order/place` logic, including crucial validations for product stock and deducting stock upon order placement. |
-| **Week 5** | Enhance product and order listing APIs by implementing pagination and filtering capabilities. Also, implement an order summary view. |
-| **Week 6** | **Bonus Challenges:** Choose one or more of these advanced tasks: Dockerize the application for easier deployment, integrate Swagger for API documentation, or add search functionality to product listings. |
+| **Day 1** | Set up the PostgreSQL database, define `User` and `Product` models using GORM, and implement simple CRUD operations for products. |
+| **Day 2** | Develop `POST /register` and `POST /login` APIs. Implement password hashing for security and integrate JWT token generation and validation using middleware. |
+| **Day 3** | Implement the Cart module. Design the `CartItem` model with associations to `User` and `Product`. Add logic to add products to the cart and manage quantities. |
+| **Day 4** | Focus on the Order module. Implement the `POST /order/place` logic, including crucial validations for product stock and deducting stock upon order placement. |
+| **Day 5** | Enhance product and order listing APIs by implementing pagination and filtering capabilities. Also, implement an order summary view. |
+| **Day 6** | **Bonus Challenges:** Choose one or more of these advanced tasks: Dockerize the application for easier deployment, integrate Swagger for API documentation, or add search functionality to product listings. |
 
 ---
 
